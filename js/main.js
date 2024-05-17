@@ -121,6 +121,28 @@
             }
         }
     });
+
+
+    $('.owl-carousel').owlCarousel({
+        rtl:false,
+        loop:true,
+        margin:10,
+        nav:true,
+        smartSpeed: 1500,
+        dots: true,
+        autoWidth:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
     
 })(jQuery);
 
